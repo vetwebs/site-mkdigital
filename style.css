@@ -2,16 +2,63 @@
     font-family: TT Alients;
     src: url(TT\ Alientz\ Trial\ Grotesque.otf);
 }
-header h1{
-    text-align: center;
-    margin-top: 1%;
+body{
+    background: rgb(0, 0, 0)
+    
 }
-.cabeçalho-conteiner{
+/*CABEÇALHO*/
+header{
+   
+}
+.redes-sociais{
     display: flex;
-    flex-direction: row;
     justify-content: end;
+    margin:  10px;
 }
-
-
+.redes-sociais img{
+    padding-left: 30px;
+}
+/*CABEÇALHO 2*/
+.boa-vindas h1{
+   
+    font-family: TT Alients;
+    margin-left: 16%;
+    font-size: 30px;
+   
+    color: white;
+}
+/*PRINCIPAL 1*/
+.principal__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foto-principal{
+    margin-top: 20px;
+    
+}
+/*TEXTO PRINCIPAL*/
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+}
+.texto-principal p{
+    text-align: center;
+    margin-top: 20%;
+   
+}
+.paragrafo-1{
+    color: #BD5F00;
+    font-weight: bold;
+    font-size: 5em;
+}
+.nome-mkdigital{
+    font-weight: bold;
+    color: white;
+}
+.paragrafo-2{
+    color: white;   
+    font-size: 3em;
+    
+}
 
 
