@@ -1,12 +1,17 @@
+:root{
+    --cor-textoprincipal: #BD5F00;
+    --fonte-titulos: MinSans;
+    
+}
 @font-face {
-    font-family: TT Alients;
-    src: url(TT\ Alientz\ Trial\ Grotesque.otf);
+    font-family: MinSans;
+    src: url(MinSans-Regular.ttf);
 }
 body{
     background: rgb(0, 0, 0)
     
 }
-/*CABEÇALHO*/
+/*-----CABEÇALHO------*/
 header{
    
 }
@@ -15,41 +20,49 @@ header{
     justify-content: end;
     margin:  10px;
 }
+
 .redes-sociais img{
     padding-left: 30px;
 }
-/*CABEÇALHO 2*/
+/*-----CABEÇALHO 2-----*/
 .boa-vindas h1{
    
-    font-family: TT Alients;
-    margin-left: 16%;
-    font-size: 30px;
-   
+    font-family: MinSans;
+    margin-left: 40%;
+    font-size: 40px;
     color: white;
 }
-/*PRINCIPAL 1*/
+/*------PRINCIPAL 1------*/
 .principal__container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .foto-principal{
     margin-top: 20px;
     
 }
-/*TEXTO PRINCIPAL*/
+.foto-principal img:hover{
+    width: 700px;
+    transition: 2s;
+}
+/*-----TEXTO PRINCIPAL-----*/
 .texto-principal{
     display: flex;
     flex-direction: column;
 }
-.texto-principal p{
+.texto-principal{
     text-align: center;
-    margin-top: 20%;
-   
+    margin-top: 8%; 
+}
+.texto-principal:hover{
+    font-size: 19px;
+    transition: 2s;
 }
 .paragrafo-1{
-    color: #BD5F00;
+    color: var(--cor-textoprincipal);
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.1em;
+    font-family: var(--fonte-titulos);
 }
 .nome-mkdigital{
     font-weight: bold;
@@ -57,8 +70,12 @@ header{
 }
 .paragrafo-2{
     color: white;   
-    font-size: 3em;
-    
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
 }
-
-
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*-----Principal 2 - Página 2*-----/
