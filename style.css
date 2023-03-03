@@ -78,4 +78,37 @@ hr{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-/*-----Principal 2 - Página 2*-----/
+/*-----Principal 2 - Página 2-----*/
+.principal-2{
+    background: linear-gradient(rgb(235, 215, 160), rgba(255, 255, 255, 0.658));
+   
+}
+.texto-principal-2__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.texto-principal-2__container strong{
+   color: var(--cor-textoprincipal);
+   font-weight: bold;
+   
+}
+.paragrafo-pagina-2{
+    margin: 10%;
+    font-size: 35px;
+    text-align: center;
+    font-family: MinSans;
+    font-weight:lighter;
+}
+.texto-principal-2__container img{
+   margin: 5%;
+}
+/*Principal 2 - página 3*/
+figure{
+    background: linear-gradient(rgba(255, 255, 255, 0.658),rgb(235, 215, 160));
+   text-align: center;
+}
+
+
+
