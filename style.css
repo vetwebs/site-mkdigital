@@ -41,10 +41,7 @@ header{
     margin-top: 20px;
     
 }
-.foto-principal img:hover{
-    width: 700px;
-    transition: 2s;
-}
+
 /*-----TEXTO PRINCIPAL-----*/
 .texto-principal{
     display: flex;
@@ -79,6 +76,7 @@ hr{
     margin-bottom: 5%;
 }
 /*-----Principal 2 - Página 2-----*/
+
 .principal-2{
     background: linear-gradient(rgb(235, 215, 160), rgba(255, 255, 255, 0.658));
    
@@ -100,9 +98,16 @@ hr{
     text-align: center;
     font-family: MinSans;
     font-weight:lighter;
+    animation: slideInLeft; 
+    animation-duration: 2s;
+    
+
 }
 .texto-principal-2__container img{
    margin: 5%;
+   animation: slideInLeft; 
+  animation-duration: 2s;
+
 }
 /*Principal 2 - página 3*/
 figure{

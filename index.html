@@ -7,22 +7,23 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <!--Cabeçalho-->
+    <!---------Cabeçalho Redes Sociais-------------->
     <header>
-        <nav class="redes-sociais">
+        <nav class="redes-sociais" data-aos="flip-down" data-aos-duration="3000">
             <a href="#"><img src="img/instagram-logo.png" alt="logo instagram" width="50px"></a>
             <a href="#"><img src="img/facebook-logo.png" alt="logo facebook" width="50px"></a>
             <a href="#"><img src="img/whatsapp-logo.png" alt="logo whatsapp" width="50px"></a>
         </nav>
     </header>
-    <!--Cabeçalho 2-->
+    <!-----------------Cabeçalho 2------------->
     <di class="boa-vindas">
         <h1>Boa vindas</h1>
     </di>
-    <!--Principal 1-->
-    <main class="principal__container">
+    <!------------------Principal 1--------------->
+    <main class="principal__container" >
         <div class="foto-principal"> 
             <img src="img/logo-logo.png" alt="Foto Principal de apresentação" width="580px">
         </div>
@@ -33,24 +34,23 @@
             <hr size="2" width="50%" color="white">
         </div>
     </main>
-    <!--Principal 2 - Página 2-->
+    <!-------------Principal 2 - Página 2------------->
     <main class="principal-2"> 
         <div class="texto-principal-2__container"> 
-            <p class="paragrafo-pagina-2"> 
-            O <strong>MK Digital</strong> é uma empresa especializada onde vamos te ajudar a utilizar as ferramentas certas no meio de comunicação a sua empresa.
+            <p class="paragrafo-pagina-2" data-aos="fade-right" data-aos-duration="2000"> 
+            O <strong>MK Digital</strong> é uma empresa especializada onde vamos te ajudar a utilizar as ferramentas certas no meio de comunicação da sua empresa.
             </p>
-            <img src="img/logo-mk-logo.png" alt="" width="320" height="205">   
+            <img src="img/logo-mk-logo.png" alt="Logo-MK Digital" width="320" height="205" class="logo-mk" data-aos="fade-left" data-aos-duration="2000">   
         </div>
     </main>
-    <!--Principal 2 - página 3-->
+    <!---------------Principal 2 - página 3------------->
     <figure>
-        <img src="img/Mkt.png" alt="" width="150px">
+        <img src="img/Mkt.png" alt="" width="150px" class="logo-foguetemk" data-aos="fade-up" data-aos-duration="2000">
     </figure>
-    
-    <main>
-
-    </main>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 
 </body>
 </html>
