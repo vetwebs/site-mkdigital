@@ -134,7 +134,7 @@ figure{
     font-size: 45px;
     font-family: MinSans;
     font-weight: bold;
-    color:#ff7400;
+    color: var(--cor-textoprincipal);
 }
 .paragrafos-pagina-3{
     text-align: center;
@@ -146,4 +146,36 @@ figure{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #29201d;
+}
+/*Principal 4- página 4*/
+.pagina4-container{
+    background: linear-gradient(rgb(255, 250, 255),rgb(177, 174, 166));
+}
+.paragrafos-pagina-4 p{
+    text-align: center;
+    margin: 0 5em 0;
+    font-size: 40px;
+    font-family: MinSans;
+}
+
+.paragrafo2-pagina4{
+    padding-top: 15%;
+}
+.estrategia,.ferramentas{
+    font-weight: bold;
+    color: var(--cor-textoprincipal)
+
+}
+.mk-digital{
+    font-weight: bold;
+    
+}
+/*IMAGENS PÁGINA 4*/
+.imagens-pagina4__container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imagens-pagina4__container img{
+    padding-top: 5%;
 }
