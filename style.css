@@ -130,14 +130,20 @@ figure{
     margin-left: 10%;
 }
 .titulo-pagina3 h2{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 45px;
+    font-family: MinSans;
+    font-weight: bold;
+    color:#ff7400;
 }
 .paragrafos-pagina-3{
     text-align: center;
-    padding: 10px;
+    
 }
 .paragrafos-pagina-3 p{
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #29201d;
 }
