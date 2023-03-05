@@ -115,5 +115,29 @@ figure{
    text-align: center;
 }
 
-
-
+/*Principal 3- página 3*/
+.pagina-3-container{
+    background: linear-gradient(rgb(235, 215, 160), rgb(255, 250, 255));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.foto-pagina3 img{
+    margin-top: 10%;
+}
+.titulo-pagina3{
+    margin-left: 10%;
+}
+.titulo-pagina3 h2{
+    margin-top: 20%;
+    font-size: 45px;
+}
+.paragrafos-pagina-3{
+    text-align: center;
+    padding: 10px;
+}
+.paragrafos-pagina-3 p{
+    padding: 10px;
+    font-size: 30px;
+}
