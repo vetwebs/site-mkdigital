@@ -179,3 +179,77 @@ figure{
 .imagens-pagina4__container img{
     padding-top: 5%;
 }
+/*Principal 5- página 5*/
+.pagina-5__container{
+    background: linear-gradient(rgb(177, 174, 166),rgb(255, 250, 255));
+    display: flex;
+    padding-top: 15%;   
+}
+.quersaber-mais{
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-family: MinSans;
+    text-align: center;
+    color: var(--cor-textoprincipal);
+}
+.paragrafo-1-pg5{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.conteudo-comunicações{
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+}
+.conteudo-comunicações{
+    background: linear-gradient(rgba(255, 255, 255, 0.658),rgb(235, 215, 160));
+    border: 2px solid rgb(216, 208, 208);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 2em;
+
+}
+.email, .whatsapp{
+    font-weight: bold;
+}
+.conteudo-contato{
+    margin: 5%;
+    padding: 20px; 
+    background: linear-gradient(rgba(255, 255, 255, 0.658),rgb(235, 215, 160));
+    border: 2px solid rgb(223, 207, 207);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    
+}
+input{
+    padding: 10px;
+
+}
+form label{
+    font-size: 20px;
+    font-family: MinSans;
+    padding: 10px;
+    color: var(--cor-textoprincipal);
+    font-weight: bold;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 8px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 8px;
+    background: transparent;
+}
+
