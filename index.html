@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <!---------Cabeçalho Redes Sociais-------------->
@@ -77,15 +78,12 @@
     </div>
 </section>
 <!---------------Principal  5 - página 5------------->
-<section class="pagina-5__container">
-    <div>
+<section class="pagina-5__container" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+    <div class="conteudo-contatos-nav" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
         <h2 class="quersaber-mais">Quer saber mais?</h2>
-
         <p class="paragrafo-1-pg5">Você pode entrar em contato conosco de diversas maneiras.</p>
-
         <p class="paragrafo-1-pg5">Escolha a que você achar mais conveniente que responderemos 
         o mais breve possível!</p>
-
         <div class="conteudo-comunicações">
             <p class="email">Email</p>
             <p>exemplo@exemplo.com</p>
@@ -94,35 +92,26 @@
             <p>(11) 458-558-55</p>
         </div>
     </div>
-    
     <div class="conteudo-contato">
-        <form action="https://api.staticforms.xyz/submit" method="post">
-
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
-
+        <form action="https://api.staticforms.xyz/submit" method="post" >
+         <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
-            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off">
-
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
             <label>Mensagem</label>
-            <textarea name="Mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-        
-            <button type="submit">Enviar</button>
-
+            <textarea name="Mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit"><a href="obrigada.html">Enviar</a></button>
             <input type="hidden" name="accessKey" value="8ebe9a6e-8ed5-4095-a5bb-c8df10568005">
-
             <input type="hidden" name="redirectTo" value="obriada.html">
-
-    </form>
-
+        </form>
     </div>
-
 </section>
-
-
-
-
-
+<!-------------------RODAPÉ------------------>
+<section class="rodape">
+    <div class="rodape-mk">
+        <p>MK - Digital - 2023</p>
+    </div>
+</section>
 
 
 
