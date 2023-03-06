@@ -25,6 +25,10 @@ header{
     padding-left: 30px;
 }
 /*-----CABEÇALHO 2-----*/
+.boa-vindas{
+    display: block;
+    
+}
 .boa-vindas h1{
    
     font-family: MinSans;
@@ -35,6 +39,7 @@ header{
 /*------PRINCIPAL 1------*/
 .principal__container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 .foto-principal{
@@ -45,7 +50,9 @@ header{
 /*-----TEXTO PRINCIPAL-----*/
 .texto-principal{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    font-size: 16px;
 }
 .texto-principal{
     text-align: center;
@@ -83,6 +90,7 @@ hr{
 }
 .texto-principal-2__container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     
@@ -119,6 +127,7 @@ figure{
 .pagina-3-container{
     background: linear-gradient(rgb(235, 215, 160), rgb(255, 250, 255));
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
    
@@ -153,7 +162,7 @@ figure{
 }
 .paragrafos-pagina-4 p{
     text-align: center;
-    margin: 0 5em 0;
+   
     font-size: 40px;
     font-family: MinSans;
 }
@@ -173,6 +182,7 @@ figure{
 /*IMAGENS PÁGINA 4*/
 .imagens-pagina4__container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
@@ -183,6 +193,7 @@ figure{
 .pagina-5__container{
     background: linear-gradient(rgb(177, 174, 166),rgb(255, 250, 255));
     display: flex;
+    flex-wrap: wrap;
     padding-top: 15%;   
 }
 .quersaber-mais{

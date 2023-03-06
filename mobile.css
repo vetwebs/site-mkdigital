@@ -1,4 +1,20 @@
 @import url(style.css);
 @media (max-width: 1000px){
+    .redes-sociais{
+        justify-content: center;
+    }
+    .boa-vindas{
+        text-align: center;
+        
+    }
+    .titulo-pagina3 h2{
+        text-align: center;
+    }
+    .foto-principal img{
+        width: 100%;
+    }
+    .texto-principal{
+        justify-content: center;
+    }
     
 }
